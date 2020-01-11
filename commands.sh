@@ -8,6 +8,6 @@ cp server.txt apache-tomcat/webapps/ROOT
 cd $DIRECTORY/apache-tomcat/bin
 export JRE_HOME=$DIRECTORY/jre1.8.0_231
 chmod +x ./startup.sh
-sh ./startup.sh 
+#sh ./startup.sh 
 
 #tar -zvcf apache-tomcat.tar.gz apache-tomcat
